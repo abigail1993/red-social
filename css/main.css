@@ -1,0 +1,28 @@
+.margin {
+  background-color: red;
+  margin: 0px;
+}
+
+.verde {
+  background-color: green;
+  margin-top: 20vh;
+}
+.pink {
+  background: pink;
+  height: 90vh;
+}
+
+footer {
+  background: black;
+  color: white;
+  height: 4vh;
+  text-align: center;
+}
+
+.red {
+  background: red;
+}
+
+.gris {
+  background: gray;
+}
