@@ -26,3 +26,10 @@ footer {
 .gris {
   background: gray;
 }
+
+#alert {
+  width: 200px;
+  padding: 5px;
+  background: red;
+  display: none;
+}
