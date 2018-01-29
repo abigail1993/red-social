@@ -83,6 +83,11 @@ footer { /*da estilo al footer*/
   font-weight: bold;
 }
 
+.btn-w {
+  width: 200px;
+
+}
+
 button:hover {
   background-color: #BCB9DB;
 }
