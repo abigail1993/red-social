@@ -1,18 +1,30 @@
-.margin {
-  background-color: red;
+/*paleta de colores
+yellow: #FDFDB3;
+purple: #BCB9DB;
+pink: #EEC2DD;
+blue: #C0D9DE;
+aqua: #CFE5D8;
+#c83f71
+*/
+
+.margin { /*da estilo a la barra superior*/
+  background-color: #CFE5D8;
   margin: 0px;
+  padding: 5vh;
 }
 
-.verde {
-  background-color: green;
+.blue { /*da color al fondo del jumbotron*/
+  background-color: #a4d5a6;
   margin-top: 20vh;
 }
-.pink {
-  background: pink;
+.pink { /*da color al fondo general*/
+  background: #EEC2DD;
   height: 90vh;
+  margin: 0;
+  padding: 0;
 }
 
-footer {
+footer { /*da estilo al footer*/
   background: black;
   color: white;
   height: 4vh;
@@ -27,9 +39,66 @@ footer {
   background: gray;
 }
 
+<<<<<<< HEAD
 #alert {
   width: 200px;
   padding: 5px;
   background: red;
   display: none;
+=======
+.logo { /*da estilo al logo de la vista inicial*/
+  width: 30vh;
+  height: auto;
+  max-width: 100%;
+}
+
+.logo1 { /* da dimensiones al contenedor del logo*/
+  width: 30vh;
+  height: auto;
+}
+
+.registrate { /*posiciona y da color a REGISTRATE*/
+  font-size: 5vh;
+  color: #c83f71;
+}
+
+.inline{ /*posiciona el logo*/
+  padding: 0;
+  height: auto;
+}
+
+.inline1 { /*posiciona REGISTRATE*/
+  margin-top: 3vh;
+}
+
+.color { /*da color a las letras del botón iniciar sesión*/
+  color: #c83f71;
+}
+
+.button1 { /*Da estilo al boton de iniciar sesión*/
+  text-decoration: none;
+  background-color: #c83f71;
+  border: none;
+  border-radius: 10px;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+  width: auto;
+  padding: 18px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #BCB9DB;
+}
+
+.modalback {
+  background-color: #BCB9DB;
+}
+
+.modalback1 {
+  background-color: #EEC2DD;
+>>>>>>> 8ddcc6896d43cb236327cb06b001a8481760644d
 }

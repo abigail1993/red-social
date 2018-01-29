@@ -19,13 +19,16 @@
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#">logotipo</a>
+           <div class="logo1">
+             <a class="navbar-brand inline" 0href="#"><img class="logo img-fluid"src="assets/images/logo-01.png" alt=""></a>
+           </div>
+
         </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a data-toggle="modal" href="#ventana1">Iniciar Sesión</a></li>
+            <li class="inline1"><a data-toggle="modal" href="#ventana1"><p class="registrate" >Regístrate</p></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -33,12 +36,12 @@
 
 <!--modal -->
 
-    <div class="modal fade" id="ventana1" tabindex="-1" role="dialog">
+    <div class="modal fade modalback" id="ventana1" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content modalback1">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">imagen del logotipo</h4>
+            <h4 class="modal-title"> <img class="logo"  src="assets/images/logo-01.png" alt="logo"> </h4>
           </div>
           <div class="modal-body">
             <form class="form-horizontal" onsubmit="javascript:return Validar(this);">
@@ -77,7 +80,7 @@
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-default">Crear Cuenta</button>
+                  <button type="submit" class="btn btn-default button1">Crear Cuenta</button>
                 </div>
               </div>
               <div id="alert">hola</div>
@@ -90,18 +93,19 @@
 <!-- seccion 2-->
 
     <div class="container-fluid pink">
-      <p>imagen</p>
+      <img src="" alt="">
+
       <div class="row">
-        <div class="jumbotron col-md-5 col-md-push-7 verde">
+        <div class="jumbotron col-md-5 col-md-push-7 blue">
           <form>
-            <div class="form-group">
-              <h2>Iniciar Sesión</h2>
+            <div class="form-group color">
+              <h4>Iniciar Sesión</h4>
               <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
             </div>
             <div class="form-group">
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
             </div>
-            <button type="submit" class="btn btn-default" href="views/perfil.html">Iniciar Sesión</button>
+            <button class="button1 color" type="submit" class="btn btn-default" href="views/perfil.html">Iniciar Sesión</button>
           </form>
         </div>
       </div>
